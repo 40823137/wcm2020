@@ -5,9 +5,74 @@
 <p>張睿祐</p>
 <p>影片:<a href="https://www.youtube.com/channel/UC85YsuUKZee_rfu-xChQswg?view_as=subscriber">https://www.youtube.com/channel/UC85YsuUKZee_rfu-xChQswg?view_as=subscriber</a></p>
 <p>倉儲:<a href="https://github.com/40823137/wcm2020">https://github.com/40823137/wcm2020</a></p>
+<h1>每周上課內容</h1>
+<h2>W1~W5</h2>
+<p>建立隨身系統</p>
+<p>(1)下載<span>3.8.2 python 解譯器並安裝置可攜系統內</span></p>
+<p>(2)下載<span>Scite.exe 編輯器至可攜系統</span></p>
+<p>    並將內定的<span>code.page=0 改為 code.page=65001</span></p>
+<p>    才能正常顯示中文而非亂碼</p>
+<p>(3)建立stop.bat和start.bat</p>
+<p>(4)<span> 利用 get-pip.py d在可攜系統內安裝pipi</span></p>
+<p><span>(5)下載64位元msys2(安裝在電腦中再複製到data內)</span></p>
+<p><span>(6)測試是否可以編譯c程式</span></p>
+<h2>W6~W9</h2>
+<p>學習使用<span>Youtube Live+OBS串流進行直播</span></p>
+<p>使用android手機座為web cam</p>
+<p>使用google meet 進行上課、錄製、分享畫面的練習</p>
+<h2>w10~w11</h2>
+<p><span>說明如何利用 Python 程式讀取學員修課檔案, 以及從 Google Sheet 轉出的 .csv, 分別處理為 List 與 Dictionary 資料格式之後, 逐一根據學員 List 學號, 從 Dictionary 取出自評成績.</span></p>
+<p><span>說明如何將網際 Python 放入 Virtualbox 虛擬主機中</span></p>
+<h2>w12~w15</h2>
+<p><span>說明如何在 Windows 10 中安裝 Ubuntu 20.04 Virtualbox 虛擬主機教學影片</span></p>
+<p><span>嘗試建立 wcm1.kmol.info ~ wcm4.kmol.info 等實體主機.</span></p>
+<p><span>Ubuntu 20.04 編譯 NGINX </span></p>
+<p>利用 Pypdf2 切割 pdf 檔案教學影片</p>
+<p>利用 HxD 編修 pip.exe 教學影片</p>
+<h2>w16~w17</h2>
+<h6>利用pypdf2擷取pdf與合併pdf的程式，並利用API放上動態網站測試。</h6>
+<h1>操作設定</h1>
+<h2>ssh</h2>
+<p>建立ssh key</p>
+<p>在cmd視窗輸入sh</p>
+<p>然後輸入<span>ssh-keygen -t rsa -b 4096 -C "學號"</span></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725829639561412729/unknown.png"/></p>
+<p>開啟puttygen.exe並load剛剛建立的key轉為ppk檔</p>
 <p></p>
-<p></p>
-<h1>Video</h1>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725839625335210024/unknown.png"/></p>
+<p>將pub將public key打開並複製到github</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725840371522732132/unknown.png"/></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725841179782152262/unknown.png"/></p>
+<p></p><h2>Pelican建立Blog</h2>
+<p>開啟launchLeo</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725800040047706162/unknown.png"/></p>
+<p>開啟pelican.leo並到pelican設定 共用設定</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725800591422390352/unknown.png"/></p>
+<p>到遠端設定</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725801651633520700/unknown.png"/></p>
+<p>到markdown編寫想推送的blog內容</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725803425677180978/unknown.png"/></p>
+<h2>blogger</h2>
+<p>到blogger登入學校帳號並建立新網誌</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725805148949053560/unknown.png"/></p>
+<p>設定網址</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725805148949053560/unknown.png"/></p>
+<p>設定名稱後即完成</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725805276728655992/unknown.png"/></p>
+<h2>cmsimde建立網頁</h2>
+<p>到github建立倉儲</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725806497145159830/unknown.png"/></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725833650809208863/unknown.png"/></p>
+<p>在可攜系統中建立tmp資料夾</p>
+<p>並將倉儲git clone至tmp裡面</p>
+<p>使用 git submodule add </p>
+<p>將cmsimde放入wcm2020</p>
+<p>將<span>up_ir中的檔案複製到wcm2020</span></p>
+<p>打開cmd視窗進入到cmsimde</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725835207575339028/unknown.png"/></p>
+<p>輸入python wsgi.py</p>
+<p>在瀏覽器中到localhost:9443即可編輯網頁</p>
+<p><a href="https://cdn.discordapp.com/attachments/679364557315244073/725835207575339028/unknown.png"></a></p><h1>Video</h1>
 <p>OBS串流練習</p>
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/WvJGtd_L_kk" width="560"></iframe></p>
 <p>期中使用meet 錄製影片報告<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/RvusU98whM4" width="560"></iframe></p>

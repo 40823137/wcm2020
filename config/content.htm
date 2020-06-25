@@ -33,7 +33,17 @@
 <h6>利用pypdf2擷取pdf與合併pdf的程式，並利用API放上動態網站測試。</h6>
 <h1>操作設定</h1>
 <h2>ssh</h2>
-<h2>Pelican建立Blog</h2>
+<p>建立ssh key</p>
+<p>在cmd視窗輸入sh</p>
+<p>然後輸入<span>ssh-keygen -t rsa -b 4096 -C "學號"</span></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725829639561412729/unknown.png"/></p>
+<p>開啟puttygen.exe並load剛剛建立的key轉為ppk檔</p>
+<p></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725839625335210024/unknown.png"/></p>
+<p>將pub將public key打開並複製到github</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725840371522732132/unknown.png"/></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725841179782152262/unknown.png"/></p>
+<p></p><h2>Pelican建立Blog</h2>
 <p>開啟launchLeo</p>
 <p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725800040047706162/unknown.png"/></p>
 <p>開啟pelican.leo並到pelican設定 共用設定</p>
@@ -42,7 +52,8 @@
 <p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725801651633520700/unknown.png"/></p>
 <p>到markdown編寫想推送的blog內容</p>
 <p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725803425677180978/unknown.png"/></p>
-<h2>blogger</h2>
+<p>在cmd視窗輸入pelican markdown -o blog -s local_publishconf.py完成建立</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725842821164040223/unknown.png"/></p><h2>blogger</h2>
 <p>到blogger登入學校帳號並建立新網誌</p>
 <p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725805148949053560/unknown.png"/></p>
 <p>設定網址</p>
@@ -50,9 +61,19 @@
 <p>設定名稱後即完成</p>
 <p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725805276728655992/unknown.png"/></p>
 <h2>cmsimde建立網頁</h2>
-<p></p>
-<p></p>
-<h1>Video</h1>
+<p>到github建立倉儲</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725806497145159830/unknown.png"/></p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725833650809208863/unknown.png"/></p>
+<p>在可攜系統中建立tmp資料夾</p>
+<p>並將倉儲git clone至tmp裡面</p>
+<p>使用 git submodule add </p>
+<p>將cmsimde放入wcm2020</p>
+<p>將<span>up_ir中的檔案複製到wcm2020</span></p>
+<p>打開cmd視窗進入到cmsimde</p>
+<p><img src="https://cdn.discordapp.com/attachments/679364557315244073/725835207575339028/unknown.png"/></p>
+<p>輸入python wsgi.py</p>
+<p>在瀏覽器中到localhost:9443即可編輯網頁</p>
+<p><a href="https://cdn.discordapp.com/attachments/679364557315244073/725835207575339028/unknown.png"></a></p><h1>Video</h1>
 <p>OBS串流練習</p>
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/WvJGtd_L_kk" width="560"></iframe></p>
 <p>期中使用meet 錄製影片報告<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/RvusU98whM4" width="560"></iframe></p>

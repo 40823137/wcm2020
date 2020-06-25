@@ -58,19 +58,13 @@
 </v>
 </v>
 <v t="yen.20170108171733.71"><vh>@path markdown</vh>
-<v t="leo.20200626035820.1"><vh>wcm2020</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
-<v t="leo.20180115115910.1"><vh>2018</vh>
-<v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
-<v t="leo.20180423103656.1"><vh>@edit 20180910.md</vh></v>
-<v t="leo.20180909205246.1"><vh>@edit 20180911.md</vh></v>
-</v>
-</v>
+<v t="leo.20200626035820.1"><vh>wcm2020</vh></v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
 </v>
@@ -99,9 +93,7 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20170908162904.1"></t>
 <t tx="leo.20180115093448.1"></t>
 <t tx="leo.20180115093726.1"></t>
-<t tx="leo.20180115115910.1"></t>
 <t tx="leo.20180115142025.1"></t>
-<t tx="leo.20180423103639.1"></t>
 <t tx="leo.20200626035820.1">@language md
 ---
 Title: wcm2020每周上課進度

@@ -136,9 +136,9 @@ w12~w15
 
 Ubuntu 20.04 編譯 NGINX 
 
-利用 Pypdf2 切割 pdf 檔案教學影片
+利用 Pypdf2 切割 pdf 檔案
 
-利用 HxD 編修 pip.exe 教學影片
+利用 HxD 編修 pip.exe 
 
 w16~w17
 利用pypdf2擷取pdf與合併pdf的程式，並利用API放上動態網站測試。</t>

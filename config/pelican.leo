@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,17 +10,17 @@
 <v t="yen.20170108171605.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="yen.20170108171605.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="yen.20170108171733.1" a="E"><vh>@path ../</vh>
+<v t="yen.20170108171733.1"><vh>@path ../</vh>
 <v t="leo.20180115150519.1"><vh>@edit index.html</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="leo.20170908162839.1" a="E"><vh>沒有 disqus 論壇</vh>
+<v t="leo.20170908162839.1"><vh>沒有 disqus 論壇</vh>
 <v t="yen.20170108171733.2"><vh>@button local-blog</vh></v>
 </v>
-<v t="leo.20170908162904.1" a="E"><vh>有 disqus 論壇</vh>
+<v t="leo.20170908162904.1"><vh>有 disqus 論壇</vh>
 <v t="leo.20170709224430.1"><vh>@button github-blog</vh></v>
 </v>
-<v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
+<v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
 <v t="leo.20170709020600.1"><vh>共用</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 <v t="leo.20170709015947.1"><vh>遠端</vh></v>
@@ -31,44 +28,45 @@
 <v t="leo.20170709015940.1"><vh>近端</vh></v>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 </v>
-<v t="yen.20170224232341.1" a="E"><vh>編輯 template</vh>
-<v t="leo.20180115093448.1" a="E"><vh>@path theme/attila/templates</vh>
+<v t="yen.20170224232341.1"><vh>編輯 template</vh>
+<v t="leo.20180115093448.1"><vh>@path theme/attila/templates</vh>
 <v t="leo.20180715212936.1"><vh>@edit article.html</vh></v>
 <v t="leo.20180115093536.1"><vh>@edit base.html</vh></v>
 <v t="leo.20180115093657.1"><vh>@edit search.html</vh></v>
 <v t="leo.20180115093715.1"><vh>@edit archives.html</vh></v>
 <v t="leo.20180715212745.1"><vh>@edit categories.html</vh></v>
 <v t="leo.20180715212902.1"><vh>@edit index.html</vh></v>
-<v t="leo.20180115093726.1" a="E"><vh>@path partials</vh>
+<v t="leo.20180115093726.1"><vh>@path partials</vh>
 <v t="leo.20180115093749.1"><vh>@edit navigation.html</vh></v>
 </v>
 <v t="leo.20180115142025.1"><vh>保留之前舊的設定檔案</vh></v>
 </v>
-<v t="yen.20170224232341.2" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
+<v t="yen.20170224232341.2"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170224232341.3"><vh>@edit base.html</vh></v>
 </v>
-<v t="leo.20170710015301.1" a="E"><vh>@path theme/pelican-bootstrap3/templates</vh>
+<v t="leo.20170710015301.1"><vh>@path theme/pelican-bootstrap3/templates</vh>
 <v t="leo.20170710015311.1"><vh>@edit search.html</vh></v>
 <v t="leo.20170710095845.1"><vh>@edit base.html</vh></v>
 <v t="leo.20170710101854.1"><vh>@edit article.html</vh></v>
 </v>
 </v>
-<v t="leo.20170710015511.1" a="E"><vh>編輯 plugin</vh>
-<v t="leo.20170710015523.1" a="E"><vh>@path plugin</vh>
-<v t="leo.20170710015523.2" a="E"><vh>@path tipue_search</vh>
+<v t="leo.20170710015511.1"><vh>編輯 plugin</vh>
+<v t="leo.20170710015523.1"><vh>@path plugin</vh>
+<v t="leo.20170710015523.2"><vh>@path tipue_search</vh>
 <v t="leo.20170710015523.3"><vh>@edit tipue_search.py</vh></v>
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71" a="E"><vh>@path markdown</vh>
-<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
+<v t="yen.20170108171733.71"><vh>@path markdown</vh>
+<v t="leo.20200626035820.1"><vh>wcm2020</vh></v>
+<v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
-<v t="leo.20170710022041.1" a="E"><vh>@path markdown</vh>
-<v t="leo.20180115115910.1" a="E"><vh>2018</vh>
-<v t="leo.20180423103639.1" a="E"><vh>2018 Fall CP 課程</vh>
+<v t="leo.20170710022041.1"><vh>@path markdown</vh>
+<v t="leo.20180115115910.1"><vh>2018</vh>
+<v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
 <v t="leo.20180423103656.1"><vh>@edit 20180910.md</vh></v>
 <v t="leo.20180909205246.1"><vh>@edit 20180911.md</vh></v>
 </v>
@@ -104,6 +102,54 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20180115115910.1"></t>
 <t tx="leo.20180115142025.1"></t>
 <t tx="leo.20180423103639.1"></t>
+<t tx="leo.20200626035820.1">@language md
+---
+Title: wcm2020每周上課進度
+Date:2020-06-25
+Author:40823137
+---
+
+
+每周上課內容
+W1~W5
+建立隨身系統
+
+(1)下載3.8.2 python 解譯器並安裝置可攜系統內
+(2)下載Scite.exe 編輯器至可攜系統
+    並將內定的code.page=0 改為 code.page=65001
+    才能正常顯示中文而非亂碼
+
+(3)建立stop.bat和start.bat
+
+(4) 利用 get-pip.py d在可攜系統內安裝pipi
+(5)下載64位元msys2(安裝在電腦中再複製到data內)
+
+(6)測試是否可以編譯c程式
+
+W6~W9
+學習使用Youtube Live+OBS串流進行直播
+使用android手機座為web cam
+
+使用google meet 進行上課、錄製、分享畫面的練習
+
+w10~w11
+說明如何利用 Python 程式讀取學員修課檔案, 以及從 Google Sheet 轉出的 .csv, 分別處理為 List 與 Dictionary 資料格式之後, 逐一根據學員 List 學號, 從 Dictionary 取出自評成績.
+
+說明如何將網際 Python 放入 Virtualbox 虛擬主機中
+
+w12~w15
+說明如何在 Windows 10 中安裝 Ubuntu 20.04 Virtualbox 虛擬主機教學影片
+
+嘗試建立 wcm1.kmol.info ~ wcm4.kmol.info 等實體主機.
+
+Ubuntu 20.04 編譯 NGINX 
+
+利用 Pypdf2 切割 pdf 檔案教學影片
+
+利用 HxD 編修 pip.exe 教學影片
+
+w16~w17
+利用pypdf2擷取pdf與合併pdf的程式，並利用API放上動態網站測試。</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
